@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/920c198c60.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <navbar class="topnav">
+            <div>
+                <img src="C:\Users\MyLifeMyFuture\Desktop\TechUpskills\hireme2\logo.png.png">
+            </div>
+            <div class="upermenu">
+                <ul class="link">
+                    <li class="links">
+                        <a class="aa" href="#HOME"><b>HOME</b></a>
+                    </li>
+                    <li class="links">
+                        <a class="aa" href="#SERVICES"><b>SERVICES</b></a>
+                    </li>
+                    <li class="links">
+                        <a class="aa" href="#SKILLS"><b>SKILLS</b></a>
+                    </li>
+                    <li  class="links">
+                        <a class="aa" href="#PORTFOLIO"><b>PORTFOLIO</b></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="message">
+                <button class="contact">
+                    <b>MESSAGE</b>
+                </button>
+            </div>
+            <div class="openmenu">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div class="closemenu">
+                <i class="fa fa-times"></i>
+            </div>
+        </navbar>
+    <section class="home" id="HOME">
+        <main class="body">
+            <div class="ttext">
+                <p class="what">MY NAME IS DUSABEYEZU JEREMY<br><span class="work"><b>I'm a web designer</b></span><br>Based in Kigali, Remera</br></p>
+                <button class="START"><b>LET'S START</b></button>
+            </div>
+            <div>
+                <img class="imagee" src="C:\Users\MyLifeMyFuture\Desktop\TechUpskills\Hireme2\1.png" width="600px">
+            </div>
+        </main>
+        <nav class="opeen">
+            <p>learn</p>
+            <p>design</p>
+            <p>create</p>
+        </nav>
+        <main class="body2">
+            <div>
+                <img class="imagee" src="C:\Users\MyLifeMyFuture\Desktop\TechUpskills\Hireme2\22.png" width="450px">
+            </div>
+            <div class="textt">
+                <h class="hh"><b>I'm trainning with Tech upskill <br>cohort3 in IT talent group</b></br></h>
+                <p class="text">I have been creating websites using figma, html$css <br>and used to upload it to github and host it to vercel</br></p>
+                <p><b class="number">3+</b></p>
+                <p><b class="doing">In-progress projects</b></p>
+                <class>
+                    <div>
+                        <button class="button1">
+                            <b class="button1text">MESSAGE ME</b>
+                        </button>
+
+                        <button class="button2">
+                            <b class="button2text">LET'S START</b>
+                        </button>
+                    </div>
+                </class>
+            </div>
+        </main>
+    </section>
+    <section id="SERVICES" class="square">
+        <H class="title">SERVICES</H>
+        <div>
+            <button class="websquare">
+                <b>WEB DESIGN</b>
+            </button>
+
+            <button class="graphicsquare">
+                <b>GRAPHIC DESIGN</b>
+            </button>
+            <br>
+            <button class="digitalsquare">
+                <b>DIGITAL MARKETING</b>
+            </button>
+
+            <button class="networkingsquare">
+                <b>NETWORKING SERVICES</b>
+            </button>
+        </div>
+    </section>
+    <section id="SKILLS" class="section3">
+        <h class="title2">SKILLS</h>
+        <div class="square2">
+            <div>
+                <button class="htmlsquare">HTML</button>
+                <button class="csssquare">CSS</button><br>
+                <button class="figmasquare">FIGMA</button>
+                <button class="presssquare">WORDPRESS</button>
+            </div>
+            <div>
+                <img src="C:\Users\MyLifeMyFuture\Desktop\TechUpskills\tools\aa.png" width="300px">
+            </div> 
+        </div>
+    </section>
+    <section id="PORTFOLIO" class="portfolio">
+        <h class="mai">My portfolio</h>
+        <div class="clicks">
+        
+                <a href="#"><img class="imageee" src="C:\Users\MyLifeMyFuture\Desktop\TechUpskills\tools\calc1.png" width="200px"></a>
+
+
+                <a href="#"><img class="imageee" src="C:\Users\MyLifeMyFuture\Desktop\TechUpskills\tools\figma1.png" width="200px"></a>
+
+                <a href="#"><img class="imageee" src="C:\Users\MyLifeMyFuture\Desktop\TechUpskills\tools\todo.png" width="200px"></a>
+        </div>
+    </section>
+    <section id="MESSAGE" class="sendmsg">
+        <div class="container">
+            <form onsubmit="sendEmail(); reset(); return false;">
+                <h1>Get in touch</h1>
+                <p>You can contact me or send me message for more details</p>
+                <input id="Name" placeholder="Name*" type="text" required>
+                <p>Your Email:</p>
+                <input id="email" placeholder="Email*" type="email" required>
+                <p>Your phone number:</p>
+                <input id="Phone" placeholder="Phone number*" type="text" required>
+                <p>Your message:</p>
+                <textarea id="message" rows="4" placeholder="pls! Write your message here..."></textarea>
+                <button type="submit"><b>Send</b></button>
+            </form>
+        </div>
+        <div class="pics">
+            <img src="C:\Users\MyLifeMyFuture\Desktop\TechUpskills\tools\a1.png" width="500px">
+            <img src="C:\Users\MyLifeMyFuture\Desktop\TechUpskills\tools\ADDRES.png" width="250px">
+        </div>
+    </section>
+    <script>
+        const li=document.querySelectorAll(".links");
+        const sec=document.querySelectorAll("section")
+
+        function activeMenu(){
+            let len=sec.length;
+            while(--len && window.scrollY + 97 < sec[len].offsetTop){}
+            li.forEach(ltx => ltx.classList.remove("active"));
+            li[len].classList.add("active");
+        }
+        activeMenu();
+        window.addEventListener("scroll", activeMenu);
+    </script>
+    <footer class="foot">
+        
+    </footer>
+</html>
